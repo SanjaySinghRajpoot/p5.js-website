@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="p5.js a JS client-side library for creating graphic and interactive experiences, based on the core principles of Processing.">
     <title tabindex="1">get started | p5.js</title>
-    <link rel="stylesheet" href="/assets/css/all.css?v=c82529">
+    <link rel="stylesheet" href="/assets/css/all.css?v=0e8127">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
 
@@ -34,6 +34,7 @@
         <li><a href='#' lang='es' data-lang='es'>Español</a></li>
         <li><a href='#' lang='zh-Hans' data-lang='zh-Hans'>简体中文</a></li>
         <li><a href='#' lang='ko' data-lang='ko'>한국어</a></li>
+        <li><a href='#' lang='hi' data-lang='hi'>हिन्दी</a></li>
       </ul>
     </div>    <!-- .container -->
     <div class="container">
@@ -67,7 +68,7 @@
         <li><a href="/ko/reference/">레퍼런스</a></li>
         <li><a href="/ko/libraries/">라이브러리</a></li>
         <li><a href="/ko/learn/">배우기</a></li>
-        <li><a href="/ko/teach/">Teach</a></li>
+        <li><a href="/ko/teach/">가르치기</a></li>
         <li><a href="/ko/examples/">예제</a></li>
         <li><a href="/ko/books/">출판물</a></li>
         <li><a href="/ko/community/">커뮤니티</a></li>
@@ -75,6 +76,8 @@
         <li><a href="https://discourse.processing.org/c/p5js" target=_blank class="other-link">포럼</a></li>
         <li><a href="http://github.com/processing/p5.js" target=_blank class="other-link">GitHub</a></li>
         <li><a href="http://twitter.com/p5xjs" target=_blank class="other-link">Twitter</a></li>
+        <li><a href="https://www.instagram.com/p5xjs/" target=_blank class="other-link">Instagram</a></li>
+        <li><a href="https://discord.gg/SHQ8dH25r9" target=_blank class="other-link">Discord</a></li>
       </ul>
     </nav>
   </div>
@@ -131,7 +134,7 @@ function draw() {
         <p style="margin-top: 1.5em;">주의: 스크린 리더를 사용하는 경우, p5 웹에디터에서 접근성 모드 출력(Accessible Outputs)을 활성화해야 합니다. 별도의 에디터를 사용하는 경우, 접근성 라이브러리를 html 파일에 추가해야 합니다. 자세한 설명은 다음 링크를 참조하세요: </p>
         <p>스크린 리더에서 p5를 사용하는 방법</p>
         <h3 class="sr-only">스크린리더 사용자를 위한 참고 사항</h3>
-        <p><a href="../learn/p5-screen-reader.html" target="_blank">접근성 라이브러리란?.</a>
+        <p>If you are using a screen reader, you must turn on the accessible outputs in the p5 online editor, outside the editor you must add the accessibility library in your html. To learn more visit&#32;<a href="../learn/p5-screen-reader.html" target="_blank">접근성 라이브러리란?.</a>
         </p>
         <p>캔버스에 폭과 높이가 50인 타원이 x 80, y 80의 위치에 그려져있다</p>
 
@@ -198,7 +201,7 @@ function draw() {
       <h3 class="start-element tutorial-btn" id="download">다운로드 & 파일 설정</h3>
 
       <div class="info">
-        <p>
+        <p>The easiest way to start is by using the empty example that comes with the 
           <a href="../download/">p5.js complete</a>
           파일을 다운받아 시작하는 것이 가장 쉽고 간편합니다.
         </p>
@@ -280,16 +283,12 @@ function draw() {
 
     
     <footer>
-      <h2 class="sr-only">스케치 크레딧</h2>
-      <p> p5.js는 현재 모이라 터너 <a href='http://qianqian-ye.com/' target="_blank">Qianqian Ye
-      </a>과 <a href='http://www.outofambit.com/' target="_blank">evelyn masso
-      </a> 가 리드하며, 로렌 맥카시 <a href='http://lauren-mccarthy.com' target="_blank">Lauren Lee
-          McCarthy</a> 가 창안하고 협력자 커뮤니티와 함께 개발하였습니다. 지원: 프로세싱 재단 <a href="http://processing.org/foundation/" target="_blank">Processing
-          Foundation</a> 과 
-        <a href="http://itp.nyu.edu/itp/" target="_blank">NYU ITP</a>.  아이덴티티 및 그래픽 디자인: <a
-          href="http://jereljohnson.com/" target="_blank">Jerel Johnson</a>. <a href="/ko/copyright.html">&copy;
-          Info.</a></p>
+      <h2 class="sr-only">크레딧</h2>
+      <p>
+        p5.js는 현재 치안치안 예<a href='http://qianqian-ye.com/' target="_blank">Qianqian Ye</a> & 에블린 마소<a href='http://www.outofambit.com/' target="_blank">evelyn masso</a> 가 리드하고, 로렌 맥카시 <a href='https://lauren-mccarthy.com' target="_blank">Lauren Lee McCarthy</a> 가 창안하였습니다. p5.js는 프로세싱 재단 <a href="https://processingfoundation.org/" target="_blank">Processing Foundation</a> 과 <a href="https://itp.nyu.edu/itp/" target="_blank">NYU ITP</a> 의 지원으로, 협력자 커뮤니티와 함께 개발되었습니다. 아이덴티티 및 그래픽 디자인: 제럴 존슨 <a href="https://jereljohnson.com/" target="_blank">Jerel Johnson</a>. <a href="/ko/copyright.html">&copy; Info</a>.
+      </p>
     </footer>
+
   </div> <!-- end column-span -->
 
   
@@ -309,18 +308,19 @@ function draw() {
     <nav id="family" aria-labelledby="processing-sites-heading">
       <h2 id="processing-sites-heading" class="sr-only">Processing Sister Sites</h2>
       <ul id="processing-sites" aria-labelledby="processing-sites-heading">
-        <li><a href="http://processing.org">Processing</a></li>
+        <li><a href="https://processing.org">Processing</a></li>
         <li><a class="here" href="/ko/">p5.js</a></li>
-        <li><a href="http://py.processing.org/">Processing.py</a></li>
-        <li><a href="http://android.processing.org/">Processing for Android</a></li>
-        <li><a href="http://pi.processing.org/">Processing for Pi</a></li>
+        <li><a href="https://py.processing.org/">Processing.py</a></li>
+        <li><a href="https://android.processing.org/">Processing for Android</a></li>
+        <li><a href="https://pi.processing.org/">Processing for Pi</a></li>
         <li><a href="https://processingfoundation.org/">Processing Foundation</a></li>
       </ul>
       <a tabindex="1" href="#content" id="skip-to-content">Skip to main content</a>
     
+    
     </nav>
     <script>
-    var langs = ["en","es","ko","zh-Hans"];
+    var langs = ["en","es","hi","ko","zh-Hans"];
 
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

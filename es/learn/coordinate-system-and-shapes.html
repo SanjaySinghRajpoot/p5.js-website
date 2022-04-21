@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="p5.js a JS client-side library for creating graphic and interactive experiences, based on the core principles of Processing.">
     <title tabindex="1">learn | p5.js</title>
-    <link rel="stylesheet" href="/assets/css/all.css?v=c82529">
+    <link rel="stylesheet" href="/assets/css/all.css?v=0e8127">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
 
@@ -34,6 +34,7 @@
         <li><a href='#' lang='es' data-lang='es'>Español</a></li>
         <li><a href='#' lang='zh-Hans' data-lang='zh-Hans'>简体中文</a></li>
         <li><a href='#' lang='ko' data-lang='ko'>한국어</a></li>
+        <li><a href='#' lang='hi' data-lang='hi'>हिन्दी</a></li>
       </ul>
     </div>    <!-- .container -->
     <div class="container">
@@ -75,6 +76,8 @@
         <li><a href="https://discourse.processing.org/c/p5js" target=_blank class="other-link">Foro</a></li>
         <li><a href="http://github.com/processing/p5.js" target=_blank class="other-link">GitHub</a></li>
         <li><a href="http://twitter.com/p5xjs" target=_blank class="other-link">Twitter</a></li>
+        <li><a href="https://www.instagram.com/p5xjs/" target=_blank class="other-link">Instagram</a></li>
+        <li><a href="https://discord.gg/SHQ8dH25r9" target=_blank class="other-link">Discord</a></li>
       </ul>
     </nav>
   </div>
@@ -112,7 +115,7 @@
       <p>Un <a href="/reference/#/p5/point">point()</a> es la forma más simple y un buen lugar para comenzar. Para dibujar un punto solo necesitamos un par ordenado (x,y).</p>
       <!-- this script only needs to get added once even if there are multiple widget instances -->
       <script src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
-<script type="text/p5" data-autoplay data-p5-version="1.4.0">
+<script type="text/p5" data-autoplay data-p5-version="1.4.1">
 function setup(){
   createCanvas(100, 100);
 }
@@ -122,7 +125,7 @@ function draw(){
 </script>
 
       <p>Una <a href="/reference/#/p5/line">line()</a> tampoco es terriblemente compleja y solo requiere dos puntos: (x1,y1) y (x2,y2):</p>
-<script type="text/p5" data-autoplay data-p5-version="1.4.0">
+<script type="text/p5" data-autoplay data-p5-version="1.4.1">
 function setup(){
   createCanvas(100, 100);
 }
@@ -132,7 +135,7 @@ function draw(){
 </script>
 
       <p>Una vez que llegamos a dibujar un <a href="/reference/#/p5/rect">rect()</a>, las cosas se tornan un poco más complejas. En p5.js un rectángulo se especifica con las coordenadas de su esquina superior izquierda, así como ancho y alto.</p>
-<script type="text/p5" data-autoplay data-p5-version="1.4.0">
+<script type="text/p5" data-autoplay data-p5-version="1.4.1">
 function setup(){
   createCanvas(100, 100);
 }
@@ -142,7 +145,7 @@ function draw(){
 </script>
 
       <p>Una segunda manera de dibujar un rectángulo requiere especificar su punto central junto con su ancho y alto. Si preferimos este método, debemos indicar previamente que queremos utilizar el modo <a href="/reference/#/p5/CENTER">CENTER</a> antes de la instrucción del propio rectángulo. Notemos que p5.js es sensible a cada caso.</p>
-<script type="text/p5" data-autoplay data-p5-version="1.4.0">
+<script type="text/p5" data-autoplay data-p5-version="1.4.1">
 function setup(){
   createCanvas(100, 100);
   rectMode(CENTER);
@@ -153,7 +156,7 @@ function draw(){
 </script>
 
       <p>Finalmente podemos dibujar un rectángulo con dos puntos (la esquina superior izquierda y la esquina superior derecha). El modo en este caso es <a href="/reference/#/p5/CORNERS">CORNERS</a>. Notar que este ejemplo entrega el mismo resultado en pantalla que el ejemplo anterior.</p>
-<script type="text/p5" data-autoplay data-p5-version="1.4.0">
+<script type="text/p5" data-autoplay data-p5-version="1.4.1">
 function setup(){
   createCanvas(100, 100);
   rectMode(CORNERS);
@@ -164,7 +167,7 @@ function draw(){
 </script>
 
       <p>Una vez que nos hemos familiarizado con el concepto de dibujar un rectángulo, una <a href="/reference/#/p5/ellipse">ellipse()</a> es muy sencilla de dibujar. De hecho es idéntica al <a href="/reference/#/p5/rect">rect()</a> con la diferencia de que la elipse se dibuja donde la caja que contiene al rectángulo debiera estar. El modo por defecto para la <a href="/reference/#/p5/ellipse">ellipse()</a> es <a href="/reference/#/p5/CENTER">CENTER</a>, en vez de <a href="/reference/#/p5/CORNER">CORNER</a>.</p>
-<script type="text/p5" data-autoplay data-p5-version="1.4.0">
+<script type="text/p5" data-autoplay data-p5-version="1.4.1">
 function setup(){
   createCanvas(100, 100);
   ellipseMode(CENTER);
@@ -174,7 +177,7 @@ function draw(){
 }
 </script>
 
-<script type="text/p5" data-autoplay data-p5-version="1.4.0">
+<script type="text/p5" data-autoplay data-p5-version="1.4.1">
 function setup(){
   createCanvas(100, 100);
   ellipseMode(CORNER);
@@ -184,7 +187,7 @@ function draw(){
 }
 </script>
 
-<script type="text/p5" data-autoplay data-p5-version="1.4.0">
+<script type="text/p5" data-autoplay data-p5-version="1.4.1">
 function setup(){
   createCanvas(100, 100);
   ellipseMode(CORNERS);
@@ -196,7 +199,7 @@ function draw(){
 
       <p>Ahora observemos una aplicación un poco más realista, con una pantalla de dimensiones 200 por 200. Notemos el uso de la función createCanvas() para especificar el tamaño de la ventana.</p>
 
-<script type="text/p5" data-autoplay data-p5-version="1.4.0">
+<script type="text/p5" data-autoplay data-p5-version="1.4.1">
 function setup(){
   createCanvas(200, 200);
   rectMode(CENTER);
@@ -217,15 +220,11 @@ function draw(){
     
     <footer>
       <h2 class="sr-only">Créditos</h2>
-      <p> p5.js actualmente está dirigido por <a href='http://qianqian-ye.com/' target="_blank">Qianqian Ye
-      </a> y <a href='http://www.outofambit.com/' target="_blank">evelyn masso
-      </a>y fue creado por<a href='http://lauren-mccarthy.com' target="_blank">Lauren Lee
-          McCarthy</a> p5.js es desarrollado por una comunidad de colaboradores, con apoyo de <a href="http://processing.org/foundation/" target="_blank">Processing
-          Foundation</a>  y 
-        <a href="http://itp.nyu.edu/itp/" target="_blank">NYU ITP</a>. Identidad y diseño gráfico por <a
-          href="http://jereljohnson.com/" target="_blank">Jerel Johnson</a>. <a href="/es/copyright.html">&copy;
-          Info.</a></p>
+      <p>
+        p5.js está actualmente dirigido por <a href='http://qianqian-ye.com/' target="_blank">Qianqian Ye</a> y <a href='http://www.outofambit.com/' target="_blank">evelyn masso</a> y fue creado por <a href='https://lauren-mccarthy.com' target="_blank">Lauren Lee McCarthy</a>. p5.js es desarrollado por una comunidad de colaboradores, con el apoyo de <a href="https://processingfoundation.org/" target="_blank">Processing Foundation</a> y <a href="https://itp.nyu.edu/itp/" target="_blank">NYU ITP</a>. Identidad y diseño gráfico por <a href="https://jereljohnson.com/" target="_blank">Jerel Johnson</a>. <a href="/es/copyright.html">&copy; Info</a>.
+      </p>
     </footer>
+
   </div> <!-- end column-span -->
 
   
@@ -245,18 +244,19 @@ function draw(){
     <nav id="family" aria-labelledby="processing-sites-heading">
       <h2 id="processing-sites-heading" class="sr-only">Processing Sister Sites</h2>
       <ul id="processing-sites" aria-labelledby="processing-sites-heading">
-        <li><a href="http://processing.org">Processing</a></li>
+        <li><a href="https://processing.org">Processing</a></li>
         <li><a class="here" href="/es/">p5.js</a></li>
-        <li><a href="http://py.processing.org/">Processing.py</a></li>
-        <li><a href="http://android.processing.org/">Processing for Android</a></li>
-        <li><a href="http://pi.processing.org/">Processing for Pi</a></li>
+        <li><a href="https://py.processing.org/">Processing.py</a></li>
+        <li><a href="https://android.processing.org/">Processing for Android</a></li>
+        <li><a href="https://pi.processing.org/">Processing for Pi</a></li>
         <li><a href="https://processingfoundation.org/">Processing Foundation</a></li>
       </ul>
       <a tabindex="1" href="#content" id="skip-to-content">Skip to main content</a>
     
+    
     </nav>
     <script>
-    var langs = ["en","es","ko","zh-Hans"];
+    var langs = ["en","es","hi","ko","zh-Hans"];
 
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
