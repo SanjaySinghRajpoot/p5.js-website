@@ -18,10 +18,14 @@ Forum: Forum
 Showcase: Showcase
 footerxh1: Credits
 footer1: 'p5.js is currently led by '
-footer2: ' and was created by '
-footer3: '. p5.js is developed by a community of collaborators, with support from the '
-footer4: ' and '
-footer5: 'Identity and graphic design by '
+footer2: ' & '
+footer3: ' and was created by '
+footer4: '. p5.js is developed by a community of collaborators, with support from the '
+footer5: ' and '
+footer6: '. Identity and graphic design by '
+footer7: '. '
+footer8: 'Info'
+footer9: '.'
 tagline1: Processing fun times JavaScript quirkiness
 tagline2: Processing simplicity times JavaScript flexibility
 tagline3: Processing intuition times JavaScript power
@@ -75,9 +79,8 @@ home:
   sketch_info: Hunminjeongeum2020 created by Seonghyeon Kim
 copyright:
   copyright-title: Copyright Information
-  copyright1: >-
-    The p5.js library is free software; you can redistribute it and/or modify it
-    under the terms of the
+  copyright1: 'The p5.js library is free software; you can redistribute it and/or modify it
+    under the terms of the '
   copyright2: ' as published by the Free Software Foundation, version 2.1.'
   copyright3: 'The Reference for the language is under a '
   copyright4: ' license which makes it possible to reuse this content for non-commercial purposes if it is credited.'
@@ -91,9 +94,9 @@ get started:
   get-started4: ', you can open the web editor and can scroll down to '
   get-started5: Your First Sketch
   get-started6: >-
-    . If you would like to work on the the desktop version of p5.js you can
+    . If you would like to work on the desktop version of p5.js you can
     scroll down to
-  get-started7: downloading instructions,
+  get-started7: downloading instructions
   get-started-button: 'Copy'
   settingUp-title: Setting up p5.js with an editor on your own computer
   download-title: Downloading a copy of the p5.js library
@@ -255,10 +258,10 @@ download:
   supported-browsers: 'Supported browsers '
   support-title: Support p5.js!
   support-options: Support Options
-  support-1: >-
-    We need your help! p5.js is free, open-source software. We want to make our community as open
+  support-1:
+    'We need your help! p5.js is free, open-source software. We want to make our community as open
     and inclusive as possible. You can support this work by making a donation to
-    the
+    the '
   support-2: >-
     , the organization that supports p5.js.
     Your donation supports software development for p5.js, education resources
@@ -685,7 +688,6 @@ learn:
     canvas dimensions of 200 by 200. Note the use of the createCanvas() function
     to specify the width and height of the canvas.
   teach-desc: 'Teach a p5 workshop or class, or create teaching materials!'
-test-tutorial: null
 libraries:
   Libraries: Libraries
   core-libraries: Core Libraries

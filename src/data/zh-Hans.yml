@@ -4,12 +4,12 @@ Sidebar-Title: 网站导航
 Home: 主页
 Editor: 编辑器
 Download: 下载
-Donate: 捐献
+Donate: 捐赠
 Start: 入门
 Reference: 参考文献
 Libraries: 程式库
 Learn: 学习
-Teach: Teach
+Teach: 教学
 Examples: 范例
 Books: 书籍
 Community: 社群
@@ -18,10 +18,14 @@ Forum: 论坛
 Showcase: 案例展示
 footerxh1: 归功于
 footer1: p5.js 目前由
-footer2: 的原
-footer3: 并在
-footer4: 和
-footer5: 的支持下由其合作社群所开发。形象及平面设计
+footer2: 与
+footer3: 领导，原创者为
+footer4: 。p5.js 是在
+footer5: 和
+footer6: 的支持下由其合作社群所开发。形象及平面设计
+footer7: 。
+footer8: 版权信息
+footer9: 。
 tagline1: Processing 的趣味结合 JavaScript 的俏皮
 tagline2: Processing 的简易性结合 JavaScript 的灵活性
 tagline3: Processing 的直觉结合 JavaScript 的力量
@@ -497,9 +501,9 @@ learn:
   coordinate-system-simple-shapes-p2x1: >-
     针对每个形状，我们需要问我们需要什么资料才可以定义该图形的位置及大小（更之后其颜色）然后再了解 p5
     如何接收这些信息。在以下的绘图内，我们将使用一个宽度为 100 像素及高度为 100 像素的画布。
-  coordinate-system-simple-shapes-p3x1: ''
+  coordinate-system-simple-shapes-p3x1: 'A '
   coordinate-system-simple-shapes-p3x2: ' （点）是最简单的图形同时也是个不错的起点。以绘制一个点（point），我们只需要提供 x 及 y 坐标。'
-  coordinate-system-simple-shapes-p4x1: ''
+  coordinate-system-simple-shapes-p4x1: 'A '
   coordinate-system-simple-shapes-p4x2: ' （直线）也不会特别困难，我们只需提供两个点 (x1,y1) 及 (x2,y2)：'
   coordinate-system-simple-shapes-p5x1: '当我们想要绘制一个 '
   coordinate-system-simple-shapes-p5x2: ' （四方形）时，这就会变得比较复杂一点。在 p5 内，一个四方形是由其左上角的坐标点与其宽度及高度来定义的。'
@@ -517,7 +521,6 @@ learn:
     现在让我们来看看一些使用更实际绘图设置的程式代码。我们将使用一个大小为 200 乘 200 的画布大小。请注意我们这里使用的
     createCanvas() 函数内所设定的画布高度及宽度。
   teach-desc: 'Teach a p5 workshop or class, or create teaching materials!'
-test-tutorial: null
 libraries:
   Libraries: 程式库
   core-libraries: 核心程式库
